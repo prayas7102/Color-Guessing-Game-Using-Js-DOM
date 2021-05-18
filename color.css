@@ -1,0 +1,62 @@
+body {
+	background-color: #232323;
+}
+#rgb{
+	font-size: 200%;
+
+}
+#colordisplay{
+
+}
+button{
+	border: none;
+	text-transform: uppercase;
+	height: 100%;
+}
+#cont{
+	
+}
+#s{
+
+}
+#result{ 
+	padding-left: 85px;
+	display: inline-block;
+	width: 20%;
+	
+}
+button:hover{
+	color: white;
+	transition: background 0.5s;
+	background: steelblue;
+}
+#l{
+	color: black;
+	font-family: "Lucida Console" ;
+}
+.class{
+
+}
+.mode{
+	
+}
+.bg{
+	background-color: steelblue;
+}
+#easybtn{
+
+}
+#hardbtn{
+	
+}
+#square{
+	background-color: white;
+	width: 30%;
+	height: 30%;
+	margin: 1%;
+	float: left;
+	padding-bottom: 15%;
+		border-radius: 10%;
+	transition: background 0.2s;
+
+}

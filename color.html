@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link type="text/css" href="color.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">	<style>
+		
+	</style>
+	<title></title>
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyD0kM8qhaCnmEptzyZaTaJjDlfLxCSr6eo",
+    authDomain: "prayas-d46d0.firebaseapp.com",
+    projectId: "prayas-d46d0",
+    storageBucket: "prayas-d46d0.appspot.com",
+    messagingSenderId: "179645164926",
+    appId: "1:179645164926:web:28d781ba3270e0361fd72f",
+    measurementId: "G-WJZ1LSD7QT"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</head>
+<body style="margin: 0">
+<h1 style="color: white; text-align: center;background-color:steelblue;margin: 0;text-transform: uppercase;padding:20px 0px;">The Great <br>
+	<span id="rgb" >RGB</span>
+	<br> Color Game</h1>
+<div style="background-color: white; padding-left: 35%;"><button id="l">New Colors</button><span id="result"></span><button id="easybtn" class="mode">EASY</button><button id="hardbtn" class="mode">HARD</button></div>
+<div id="cont" style="height: 30px;
+	text-align: center;margin: 35px 150px 15px 150px;">
+<span id="square"></span>
+<span id="square"></span>
+<span id="square"></span>
+<span id="square"></span>
+<span id="square"></span>
+<span id="square"></span>
+</div>
+</body>
+<script type="text/javascript" src="color.js">
+
+</script>
+</html>
