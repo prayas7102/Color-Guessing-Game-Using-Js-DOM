@@ -1,0 +1,3 @@
+# Color-Guessing-Game-Using-Js-DOM
+In this game there are 6 blocks of random color and at the top there is a random RGB text indicating a color. The player have to guess which block corresponds to the color enclosed by the RGB at the top. The player can guess the right block by clicking on it.  Each time the player clicks on "play again" button the whole page would get refreshed, with new RGB color at top and new color of all the 6 blocks.  This interactive game project  can enhance the DOM understanding of anyone who is a beginner in JavaScript.
+Live Project at https://color-js-dom-project.web.app/
